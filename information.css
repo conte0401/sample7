@@ -1,0 +1,177 @@
+.information , .days_flow {
+    position: relative;
+    padding: 5%;
+    padding-top: 20%;
+    margin: 5%;
+    border-radius: 7%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .5);
+}
+
+.information_img , .days_flow_img {
+    position: absolute;
+    top: 5%;
+    left: -3%;
+  }
+
+.information_map {
+    width: 100%;
+    margin-top: 10%;
+}
+
+.contents_title {
+    position: absolute;
+    top: 6%;
+    left: 5%;
+}
+
+.days_flow_img {
+    top: 1%;
+}
+
+
+.days_flow_title {
+    top: 1.5%;
+}
+
+.days_flow_text {
+    margin-top: 10px;
+    padding: 3%;
+}
+
+.flow {
+    position: relative;
+    background-image: url(img/page_content_area_bg.gif);
+    background-size: 25%;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    padding: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-radius: 7%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .5);
+}
+
+.flow_time {
+    position: absolute;
+    top: -3%;
+    left: -10%;
+    color: #00947a;
+    font-size: 20px;
+    font-weight: bold;
+    z-index: 2;
+}
+
+.flow_title {
+    text-align: center;
+}
+
+.picture_gallery {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.picture_gallery img {
+    width: 80%;
+    margin: 5%;
+}
+
+.flow_text {
+    font-size: 14px;
+}
+
+.line {
+    width: 10px;
+    height: 95%;
+    background-color: #b1b1b1;
+    transform: rotate(
+0deg
+);
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+.flow_wrap {
+    margin-top: -40px;
+}
+
+.bus_icon {
+    width: 100px;
+    transform: rotate(
+270deg
+);
+    position: sticky;
+    top: 20px;
+    left: -60px;
+    z-index: 1;
+    margin-left: -60px;
+}
+
+@media (min-width: 768px) {
+    
+    .information, .days_flow {
+        width: 800px;
+        margin: 0 auto;
+        margin-top: 5%;
+        padding-top: 10%;
+    }
+
+    .information_img , .days_flow_img {
+        width: 300px;
+        top: 3%
+    }
+
+    .days_flow_img {
+        top: 94px;
+    }
+
+    .contents_title {
+        top: 85px;
+    }
+
+    .days_flow_title {
+        top: 110px;
+    }
+
+    .days_flow_text {
+        margin-top: 5%;
+    }
+
+    .flow {
+        margin-top: 0;
+    }
+
+    .flow_time {
+        top: 3%;
+        left: -5%;
+        font-size: 24px;
+    }
+
+    .line {
+        width: 20px;
+        top: 5%;
+        left: 9%;
+    }
+
+    .bus_icon {
+        width: 200px;
+        height: 150px;
+        top: 40px;
+        margin-left: -125px;
+    }
+
+    .picture_gallery {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow: auto;
+    }
+
+    .flow_text {
+        font-size: 20px;
+    }
+
+    .days_flow {
+        margin-bottom: 5%;
+    }
+}

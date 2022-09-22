@@ -1,0 +1,104 @@
+.events {
+    margin-top: 20%;
+}
+
+.event {
+    position: relative;
+    background-size: 50%;
+    background-position: top;
+    background-position-y: 10%;
+    background-repeat: no-repeat;
+    background-color: rgba(255,255,255,.8);
+    background-blend-mode: lighten;
+    padding: 20% 5% 5%;
+    margin: 15% 5% 10%;
+    border-radius: 7%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .5);
+}
+
+.event img {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+}
+
+img.event_month {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -10%;
+    left: 5%;
+}
+
+.event_text {
+    padding: 5%;
+}
+
+.apr {
+    background-image: url(img/sakura.png);
+}
+
+.may {
+    background-image: url(img/koinobori.png);
+}
+
+.june {
+    background-image: url(img/undoukai.png);
+}
+
+.july {
+    background-image: url(img/sea.png);
+}
+
+.aug {
+    background-image: url(img/tanabata.png);
+}
+
+.sep {
+    background-image: url(img/otukimi.png);
+}
+
+.oct {
+    background-image: url(img/halloween.png);
+}
+
+.nov {
+    background-image: url(img/chitoseame.png);
+}
+
+.dec {
+    background-image: url(img/tree.png);
+}
+
+.jan {
+    background-image: url(img/syogatsu.png);
+}
+
+.feb {
+    background-image: url(img/setsubun.png);
+}
+
+.mar {
+    background-image: url(img/hinamatsuri.png);
+}
+
+@media (min-width: 768px) {
+
+    .events {
+        margin-top: 10%;
+    }
+
+    .event {
+        width: 800px;
+        margin: 10% auto;
+        padding-top: 10%;
+    }
+
+    .event img {
+        height: auto;
+    }
+
+    img.event_month {
+        width: 200px;
+    }
+}
